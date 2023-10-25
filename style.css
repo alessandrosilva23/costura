@@ -66,6 +66,7 @@ body{
 }
 
 .title3{
+    font-weight: bold;
     background-color: #58a1c5;
     font-size: 1.5em;
     text-align: center;
