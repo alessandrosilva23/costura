@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Calopsita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="headercolor">
+       
+    </div>
+    <div class="main">
+        
+        <div class="title">
+            <h1>Formulario de Cadastro</h1>
+        </div>
+        <form >
+            <div class="box1">
+                <label for="name" >Nome da Calopsita</label>
+                <input type="text" placeholder="Ex:Piquirito" required>
+            </div>
+            <div class="box2">
+                <label for="age">Nascimento</label>
+                <input type="date" required>
+                
+            </div>
+            <div class="boxtudo">
+                <div class="box3">
+                    <div class="title3">
+                        <h2>Mutação</h2>
+
+                    </div>
+                    <ul>
+                        <li>
+                            <label for="Lutino">Lutino</label>
+                            <input type="radio" name="mutation" value="Lutino">
+                        </li>
+                        <li>
+                            <label for="Silvestre">Silvestre</label>
+                            <input type="radio" name="mutation" value="Silvestre">
+                        </li>
+                        <li>
+                            <label for="carabranca">Cara-Branca</label>
+                            <input type="radio" name="mutation" value="Cara-Branca">
+                        </li>
+                        <li>
+                            <label for="canela">Canela</label>
+                            <input type="radio" name="mutation" value="canela">
+                        </li>
+                        <li>
+                            <label for="Perola">Perola</label>
+                            <input type="radio" name="mutation" value="Perola">
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                        <div class="box4">
+                            <ul >
+                                <li>
+                                    <label for="arlequin">Arlequin</label>
+                                    <input type="radio" name="mutation" value="Arlequin">
+                                </li>
+                                <li>
+                                    <label for="albino">Albino</label>
+                                    <input type="radio" name="mutation" value="Albino">
+                                </li>
+                                <li>
+                                    <label for="prata">Prata</label>
+                                    <input type="radio" name="mutation" value="prata">
+                                </li>
+                                <li>
+                                    <label for="Opalina">Opalina</label>
+                                    <input type="radio" name="mutation" value="Opalina">
+                                </li>
+                                
+                            </ul>
+                        </div>
+            </div>
+                
+              
+
+            <div class="box5">
+                <h2 class="title3">Foto</h2>
+                <label  for="image"></label>
+                <input type="file" required>
+            </div>
+
+            <div class="box6">
+                <p class="title3">Escolha brinquedo de cortesia</p>
+                <div class="box7">
+                    <label for="toy">Brinquedos</label>
+                    <select name="toy">
+                        <option value="Selecione">Selecione</option>
+                        <option value="Parquinho">Parquinho</option>
+                        <option value="Argola">Argola</option>
+                        <option value="Pendulo">Pendulo</option>
+                        <option value="Bolinhas">Bolinhas</option>
+                        <option value="Casinha">Casinha</option>
+                        <option value="Escada">Escada</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box8">
+
+                <input class="send" type="submit" value="Cadastrar">
+            </div>
+           
+        </form>
+        
+    </div>
+    
+    <div class="footer">
+
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #6FCFFE;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.headercolor{
+    background: transparent url(img/fundo-header.jpg) right center no-repeat fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main{
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
+    padding-bottom: 50px;
+}
+.title{
+    
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 0.9em;
+    background-color: #6FCFFE;
+    box-shadow: 1px 1px 7px  rgba(0, 0, 0, 0.486);
+    color: white;
+    font-style: italic;
+}
+
+.box1{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.box1 > label,input{
+    display: block;
+}
+
+.box2 > input{
+    display: block;
+    padding-bottom: 15px ;
+}
+
+.boxtudo{
+    background-color: #6FCFFE;
+    display: inline;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+.title3{
+    background-color: #58a1c5;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+}
+
+
+
+.box3{
+    background-color: #6FCFFE;
+    line-height: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.596);
+
+}
+.box3 > label,input {
+    display: inline;
+    
+}
+.box4{
+    position: relative;
+    left: 150px;
+    bottom: 170px;
+    background-color: #6FCFFE;
+    height: 50px;
+    width: 150px;
+    line-height: 30px;
+}
+div.box4 > label,input{
+    display: inline;
+    left: 150px;
+    bottom: 145px;
+    padding-bottom: 15px;
+}
+
+ul{
+    margin-left: 20px;
+    
+}
+
+.box4 > ul{
+    margin-left: 30px;
+}
+
+.box5 {
+    display: inline ;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    background-color: #6FCFFE;
+}
+.box7{
+    display: inline;
+    background-color: #6FCFFE;
+}
+
+.box8{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.send{
+    padding: 15px;
+    background-color: #6FCFFE;
+    font-weight: bold;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 7px black;
+}
+.send:hover{
+    background-color: #58a1c5;
+    color: white;
+}
+
+.footer{
+    padding-top: 150px;
+   
+}
